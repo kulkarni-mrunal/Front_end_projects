@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 16px;
+}
+
+.card-container {
+    position: relative;
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 11px;
+    background: linear-gradient(151.53deg, rgba(255, 255, 255, 0.4) 6.01%, rgba(255, 255, 255, 0.1) 92.61%);
+    backdrop-filter: blur(20px);
+    padding: 18px;
+    box-shadow: 0px 2.97px 17.85px -0.74px #00000033;
+
+}
+
+.circle {
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-1 {
+    width: 150px;
+    height: 150px;
+    top: -50px;
+    left: -50px;
+    background-color: #a8754e;
+    filter: blur(3.5rem);
+}
+
+.circle-3 {
+    width: 150px;
+    height: 150px;
+    background-color: #224776;
+    bottom: -60px;
+    right: -65px;
+    filter: blur(3.5rem);
+}
+
+.card-content {
+    border: 0.74px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+
+}
+
+.card-padding {
+    padding: 24px 18px;
+}
+
+.card-image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.tag-heart-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tag {
+    border-radius: 5px;
+    background: #a8c2f792;
+    color: #002D8A;
+    padding: 2px 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 14px;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.rating-value {
+    color: #F1C644;
+    font-size: 14px;
+    margin-inline: 8px;
+}
+
+.rating-count {
+    color: #DBDBDB;
+    font-size: 13px;
+
+}
+
+.cart-button {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-block: 30px;
+    border-top: 0.74px solid #FFFFFF3D;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cart-button:hover {
+    opacity: 1;
+    background-color: #133d91;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
