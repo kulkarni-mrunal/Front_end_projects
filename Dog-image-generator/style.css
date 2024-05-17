@@ -1,0 +1,38 @@
+.image-generator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+}
+
+.generate-image-btn {
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 24px 0;
+    cursor: pointer;
+    background-color:#5050f2;
+    border:1px dashed rgb(80, 80, 242);
+    color:#fff;
+}
+.image-generator img {
+    height: 480px;
+    width:480px;
+    object-fit: cover;
+}
+.image-box{
+    border:10px double rgb(80, 80, 242);
+    margin-top:40px;
+}
+
+.image-generator .generate-image-btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid rgb(80, 80, 242);
+    border-right: 8px solid rgb(80, 80, 242);
+    letter-spacing: 3px;
+    background-color:#fff;
+    color:#222;
+    
+}
